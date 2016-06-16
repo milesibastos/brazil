@@ -113,25 +113,23 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="bg-white box">
+                        <div class="bg-transparent box">
                             <div class="responsive-video">
                                 <iframe src="//www.youtube.com/embed/UkHBowGtUk0?autoplay=0&amp;showinfo=0&amp;controls=0" frameborder="0" allowfullscreen=""></iframe>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-black box col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="box col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <h3 class="headline text-center">
-                          S7TE Dias de Transmissões que vão te levar do ZERO ao FullStack JavaScript
+                          S7TE Dias de Transmissões que vão te levar <mark>do ZERO ao FullStack</mark> JavaScript
                         </h3>
-                        <p>Preencha o <span class="highlight-orange"> seu email </span> para se inscrever!</p>
-                        <form role="form" data-toggle="validator" accept-charset="utf-8" method="post"
-                          action="http://www.nodebr.us13.list-manage.com/subscribe/post?u=f41cb79fbdba2b03cac7aa65c&amp;id=0454bbb748">
+                        <form role="form" data-toggle="validator" accept-charset="utf-8" method="post" action="http://www.nodebr.us13.list-manage.com/subscribe/post?u=f41cb79fbdba2b03cac7aa65c&amp;id=0454bbb748">
                             <div class="form-group">
-                                <input id="mce-EMAIL" type="email" class="form-control input-lg" name="EMAIL" placeholder="Digite seu email aqui" required="">
+                                <input id="mce-EMAIL" type="email" class="form-control input-lg" name="EMAIL" placeholder="Preencha o seu email para se inscrever" required="">
                             </div>
                             <div class="form-group">
                                 <button id="mc-embedded-subscribe" type="submit" name="submit" class="btn btn-primary btn-lg btn-block">
-                                  <span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;&nbsp; QUERO PARTICIPAR
+                                    <span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;&nbsp; QUERO PARTICIPAR
                                 </button>
                             </div>
                         </form>
@@ -142,9 +140,9 @@
                     </div>
                 </div>
                 <div class="row dt-local">
-                    <div class="bg-black box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="box col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <h2>
-                    2 Dias de Evento AO VIVO exclusivo com os maiores Experts em Node.js do mundo pela primeira vez no Brasil
+                    2 Dias de <mark>Evento AO VIVO exclusivo</mark> com os maiores Experts em Node.js do mundo <mark>pela primeira vez no Brasil</mark>
                   </h2>
                         <a href="http://www.eventick.com.br/nodeconfbr" target="_blank" class="btn btn-danger btn-xl"><img src="/assets/img/ticket.svg" alt="" class="ticket" /> {{ $t('page.buy_tickets_now') }}</a>
                         <p>VAGAS LIMITADAS</p>
@@ -181,45 +179,219 @@
         </div>
     </section>
 
-    <section id="speakers">
+    <section class="bg-white">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center speakers-heading">
-                    <h2 class="section-heading">{{ $t('page.speakers') }}</h2>
-                    <hr class="light">
-                    <p>{{ $t('page.new_speakers') }}</p>
-                </div>
+            <div class="row page-header text-center" id="calendar">
+                <h1><mark><span class="fa fa-calendar"></span></mark></h1>
+                <h1>Agenda <mark>Preliminar</mark></h1>
             </div>
-        </div>
-        <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 text-center" v-for="speaker in speakers">
-                    <div class="service-box" v-bind="{ id: speaker.slug }">
-                        <a href="#" v-on:click.prevent="modal('modal-speaker-' + speaker.slug, $event)">
-                            <img v-bind="{ src: speaker.image, alt: speaker.name }" />
-                        </a>
-                        <h3>{{speaker.name}}</h3>
-                        <p class="text-muted text-uppercase">{{speaker.job}}</p>
-                        <hr>
+                <div class="col-sm-6">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h3>MAINSTREAM</h3>
+                        <p class="lead">No MAINSTREAM nós vamos te guiar do ZERO ao FullSatck JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 bg-black">
+                    <div class="row text-center" style="background-color: black;">
+                        <h3><mark>UNDERGROUND</mark></h3>
+                        <p class="lead">No UNDERGROUND nós vamos te contar nossas experiências direto das trincheiras</p>
                     </div>
                 </div>
             </div>
+            <h3 class="-black">DIA #1 | <mark>segunda-feira, 27 de junho</mark></h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h4><span class="glyphicon glyphicon-time"></span> 10h | <span class="text-muted">Esse cara</span> pode ser você</h4>
+                    </div>
+                    <div class="media">
+                        <img class="media-object img-responsive img-circle img-thumbnail pull-left" style="width: 100px;" src="http://placehold.it/100x100">
+                        <div class="media-body">
+                            <p class="lead text-center">O que é mesmo Node.js?</p>
+                        </div>
+                    </div>
+                    <p></p>
 
-            <div class="row text-center">
-                <div class="row col-xs-12">
-                    <a href="http://www.eventick.com.br/nodeconfbr" target="_blank" class="btn btn-success btn-buyticket2 btn-xl page-scroll">{{ $t('page.buy_tickets_v2') }}</a>
+                </div>
+                <div class="col-sm-6 bg-black">
+                    <div class="row text-center" style="background-color: black;">
+                        <h4><mark><span class="glyphicon glyphicon-time"></span> 14h | </mark><span class="text-muted">Esse cara</span> pode ser você...</h4>
+                    </div>
+                    <div class="media">
+                        <span class="glyphicon glyphicon-user pull-right" style="font-size: 5em;"></span>
+                        <div class="media-body">
+                            <p class="lead text-center">Essa pode ser a sua história!</p>
+                        </div>
+                    </div>
+                    <p>Que tal compartilhar com a comunidade como você começou a programar em Node.js? Conte como era o seu projeto, qual foi o ponto de virada e deixe uma dica pra quem está começando agora!</p>
+                    <p>Increva-se no evento e responda o nosso email com a sua história que entraremos em contato com você.</p>
                 </div>
             </div>
+
+            <h3 class="-black">DIA #2 | <mark>terça-feira, 28 de junho</mark></h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h4><span class="glyphicon glyphicon-time"></span> 10h | <span class="text-muted">Esse cara</span> pode ser você</h4>
+                    </div>
+                    <div class="media">
+                        <img class="media-object img-responsive img-circle img-thumbnail pull-left" style="width: 100px;" src="http://placehold.it/100x100">
+                        <div class="media-body">
+                            <p class="lead text-center">Aprenda Node.js para a mais plena vitória!</p>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="col-sm-6 bg-black">
+                    <div class="row text-center" style="background-color: black;">
+                        <h4><mark><span class="glyphicon glyphicon-time"></span> 14h | </mark><span class="text-muted">Esse cara</span> pode ser você...</h4>
+                    </div>
+                    <div class="media">
+                        <span class="glyphicon glyphicon-user pull-right" style="font-size: 5em;"></span>
+                        <div class="media-body">
+                            <p class="lead text-center">Essa pode ser a sua história!</p>
+                        </div>
+                    </div>
+                    <p>Que tal compartilhar com a comunidade como você começou a programar em Node.js? Conte como era o seu projeto, qual foi o ponto de virada e deixe uma dica pra quem está começando agora!</p>
+                    <p>Increva-se no evento e responda o nosso email com a sua história que entraremos em contato com você.</p>
+                </div>
+            </div>
+
+            <h3 class="-black">DIA #3 | <mark>quarta-feira, 29 de junho</mark></h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h4><span class="glyphicon glyphicon-time"></span> 10h | <span class="text-muted">Esse cara</span> pode ser você</h4>
+                    </div>
+                    <div class="media">
+                        <img class="media-object img-responsive img-circle img-thumbnail pull-left" style="width: 100px;" src="http://placehold.it/100x100">
+                        <div class="media-body">
+                            <p class="lead text-center">Bundles & Deploy com Webpack/Gulp/Grunt</p>
+                        </div>
+                    </div>
+                    <p>No terceiro dia, ...</p>
+                </div>
+                <div class="col-sm-6 bg-black">
+                    <div class="row text-center" style="background-color: black;">
+                        <h4><mark><span class="glyphicon glyphicon-time"></span> 14h | </mark><span class="text-muted">Esse cara</span> pode ser você...</h4>
+                    </div>
+                    <div class="media">
+                        <span class="glyphicon glyphicon-user pull-right" style="font-size: 5em;"></span>
+                        <div class="media-body">
+                            <p class="lead text-center">Essa pode ser a sua história!</p>
+                        </div>
+                    </div>
+                    <p>Que tal compartilhar com a comunidade como você começou a programar em Node.js? Conte como era o seu projeto, qual foi o ponto de virada e deixe uma dica pra quem está começando agora!</p>
+                    <p>Increva-se no evento e responda o nosso email com a sua história que entraremos em contato com você.</p>
+                </div>
+            </div>
+
+            <h3 class="-black">DIA #4 | <mark>quinta-feira, 30 de junho</mark></h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h4><span class="glyphicon glyphicon-time"></span> 10h | <span class="text-muted">Esse cara</span> pode ser você</h4>
+                    </div>
+                    <div class="media">
+                        <img class="media-object img-responsive img-circle img-thumbnail pull-left" style="width: 100px;" src="http://placehold.it/100x100">
+                        <div class="media-body">
+                            <p class="lead text-center">Websocket</p>
+                        </div>
+                    </div>
+                    <p>No quarto dia, ...</p>
+                </div>
+
+                <div class="col-sm-6 bg-black">
+                    <div class="row text-center" style="background-color: black;">
+                        <h4><mark><span class="glyphicon glyphicon-time"></span> 14h | </mark><span class="text-muted">Esse cara</span> pode ser você...</h4>
+                    </div>
+                    <div class="media">
+                        <span class="glyphicon glyphicon-user pull-right" style="font-size: 5em;"></span>
+                        <div class="media-body">
+                            <p class="lead text-center">Essa pode ser a sua história!</p>
+                        </div>
+                    </div>
+                    <p>Que tal compartilhar com a comunidade como você começou a programar em Node.js? Conte como era o seu projeto, qual foi o ponto de virada e deixe uma dica pra quem está começando agora!</p>
+                    <p>Increva-se no evento e responda o nosso email com a sua história que entraremos em contato com você.</p>
+                </div>
+
+            </div>
+
+            <h3 class="-black">DIA #5 | <mark>sexta-feita, 01 de julho</mark></h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h4><span class="glyphicon glyphicon-time"></span> 10h | <span class="text-muted">Esse cara</span> pode ser você</h4>
+                    </div>
+                    <div class="media">
+                        <img class="media-object img-responsive img-circle img-thumbnail pull-left" style="width: 100px;" src="http://placehold.it/100x100">
+                        <div class="media-body">
+                            <p class="lead text-center">Além do Node.js: MEAN Stack</p>
+                        </div>
+                    </div>
+                    <p>No quinto dia, ...</p>
+                </div>
+
+                <div class="col-sm-6 bg-black">
+                    <div class="row text-center" style="background-color: black;">
+                        <h4><mark><span class="glyphicon glyphicon-time"></span> 14h | </mark><span class="text-muted">Esse cara</span> pode ser você...</h4>
+                    </div>
+                    <div class="media">
+                        <span class="glyphicon glyphicon-user pull-right" style="font-size: 5em;"></span>
+                        <div class="media-body">
+                            <p class="lead text-center">Essa pode ser a sua história!</p>
+                        </div>
+                    </div>
+                    <p>Que tal compartilhar com a comunidade como você começou a programar em Node.js? Conte como era o seu projeto, qual foi o ponto de virada e deixe uma dica pra quem está começando agora!</p>
+                    <p>Increva-se no evento e responda o nosso email com a sua história que entraremos em contato com você.</p>
+                </div>
+
+            </div>
+
+            <h3 class="-black">DIA #6 | <mark>sábado, 02 de julho</mark></h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h4><span class="glyphicon glyphicon-time"></span> 10h | <span class="text-muted">Você</span> & Convidados</h4>
+                    </div>
+                    <div class="media">
+                        <img class="media-object img-responsive img-circle img-thumbnail pull-left" src="http://placehold.it/100x100">
+                        <span class="fa fa-users pull-right" style="font-size: 5em;"></span>
+                        <div class="media-body">
+                            <p class="lead text-center">HANDS-ON</p>
+                        </div>
+                    </div>
+                    <p style="min-height: 100px;">No penúltimo dia, Vamos "botar as mão na massa" e mostra na prática...</p>
+                </div>
+            </div>
+
+            <h3 class="-black">DIA #7 | <mark>domingo, 03 de julho</mark></h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row text-center" style="background-color: #72bd53;">
+                        <h4><span class="glyphicon glyphicon-time"></span> 10h | <span class="text-muted">Você</span> & Convidados</h4>
+                    </div>
+                    <div class="media">
+                        <img class="media-object img-responsive img-circle img-thumbnail pull-left" src="http://placehold.it/100x100">
+                        <span class="fa fa-users pull-right" style="font-size: 5em;"></span>
+                        <div class="media-body">
+                            <p class="lead text-center">WEBINÁRIO</p>
+                        </div>
+                    </div>
+                    <p style="min-height: 100px;">Depois de 7 Dias de Node.js vamos tentar responder algumas das perguntas mais comuns dos sete dias de transmissões em um webinário de encerramento com alguns dos Experts que estaram no evento ao vivo.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <section id="schedule">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 text-center text-center" style="margin-bottom: 20px">
-                    <h2 class="section-heading" style="color: #828282">{{ $t('page.schedule') }}</h2>
-                </div>
-            </div>
+          <div class="row page-header text-center" id="calendar">
+              <h1><mark><span class="fa fa-calendar"></span></mark></h1>
+              <h1>Agenda do <mark>Evento AO VIVO</mark></h1>
+          </div>
             <div class="schedule">
                 <nav>
                     <ul>
@@ -302,6 +474,38 @@
                     <div class="text-center col-xs-12">
                         <a href="https://www.google.com.br/maps/place/Teatro+Shopping+Frei+Caneca/@-23.5539296,-46.6551045,17z/data=!3m1!4b1!4m2!3m1!1s0x94ce58353ca914ff:0x4af6638b77d81ab6?hl=en" target="_blank" class="btn btn-secondary btn-maps btn-xl">{{ $t('page.open_map') }}</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center speakers-heading">
+                    <h2 class="section-heading">{{ $t('page.speakers') }}</h2>
+                    <hr class="light">
+                    <p>{{ $t('page.new_speakers') }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center" v-for="speaker in speakers">
+                    <div class="service-box" v-bind="{ id: speaker.slug }">
+                        <a href="#" v-on:click.prevent="modal('modal-speaker-' + speaker.slug, $event)">
+                            <img v-bind="{ src: speaker.image, alt: speaker.name }" />
+                        </a>
+                        <h3>{{speaker.name}}</h3>
+                        <p class="text-muted text-uppercase">{{speaker.job}}</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="row col-xs-12">
+                    <a href="http://www.eventick.com.br/nodeconfbr" target="_blank" class="btn btn-success btn-buyticket2 btn-xl page-scroll">{{ $t('page.buy_tickets_v2') }}</a>
                 </div>
             </div>
         </div>

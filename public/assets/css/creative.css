@@ -34,7 +34,7 @@ html, body {
     background-color: #202020;
 }
 body {
-    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    font-family: SourceSansProLight, 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
     max-width: 50px;
@@ -54,7 +54,7 @@ a:hover, a:focus {
     color: #eb3812;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: SourceSansProBold, 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
     font-size: 16px;
@@ -718,7 +718,7 @@ header .header-content .header-content-inner hr {
     .row {
         margin-right: -15px;
         margin-left: -15px;
-        width: 100%;
+        /* width: 100%;*/
     }
     img.ticket {
         position: relative;
@@ -1235,8 +1235,26 @@ footer {
    @milesibastos's custom styles
    ========================================================================== */
 
+mark {
+ color: #60D642;
+ background: transparent;
+ text-shadow: 1px 1px 1px #666;
+}
+
+.bg-white-75 {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
 .bg-white {
-  background-color: rgba(255, 255, 255, 0.10);
+ background-color: white;
+}
+
+.bg-transparent {
+ background-color: rgba(255, 255, 255, 0.10);
 }
 
 .box {
