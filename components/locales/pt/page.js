@@ -1,47 +1,48 @@
 'use strict'
 
 export default {
-  'big_talk': 'Talk longa',
-  'short_talk': 'Talk curta',
-  'talk_break': 'Break',
-  read_in_locale: 'READ IN ENGLISH',
-  date: '4 e 5 de Julho',
-  location: 'São Paulo, Brasil',
-  buy_tickets_now: 'FAÇA SUA INSCRICÃO AGORA',
-  buy_tickets: 'Comprar Ingressos!',
-  buy_tickets_v2: 'COMPRAR INGRESSOS',
-  code_of_conduct: 'Código de Conduta',
-  sponsorships: 'Patrocinadores',
-  place: 'Local',
-  schedule: 'Agenda',
-  speakers: 'Palestrantes',
-  about: 'Sobre',
-  about_the_event: 'Sobre o evento',
-  close: 'Fechar',
-  where_title: 'Será no Teatro Frei Caneca',
-  open_map: 'ABRIR NO GOOGLE MAPS',
-  want_to_know_you: 'Queremos conhecer você',
-  bronze_sponsorships: 'Patrocinadores Bronze',
-  silver_sponsorships: 'Patrocinadores Prata',
-  new_speakers: 'Fique de olho, anuciaremos novos palestrantes em breve!',
-  be_a_sponsor: 'Seja um patrocinador',
-  want_to_be_sponsor: 'Quero ser um patrocinador',
-  want_to_know_you_description: `Preencha o box abaixo com seu e-mail e fique
+    big_talk: 'Talk longa',
+    short_talk: 'Talk curta',
+    talk_break: 'Break',
+    read_in_locale: 'READ IN ENGLISH',
+    openconf_date: '21 de Junho à 3 de Julho',
+    date: '4 e 5 de Julho',
+    location: 'São Paulo, Brasil',
+    buy_tickets_now: 'GARANTA SUA VAGA AGORA',
+    buy_tickets: 'Evento AO VIVO',
+    buy_tickets_v2: 'COMPRAR INGRESSOS',
+    code_of_conduct: 'Código de Conduta',
+    sponsorships: 'Patrocinadores',
+    place: 'Local',
+    schedule: 'Agenda',
+    speakers: 'Palestrantes',
+    about: 'Sobre',
+    about_the_event: 'Sobre o evento',
+    close: 'Fechar',
+    where_title: 'Será no Teatro Frei Caneca',
+    open_map: 'ABRIR NO GOOGLE MAPS',
+    want_to_know_you: 'Queremos conhecer você',
+    bronze_sponsorships: 'Patrocinadores Bronze',
+    silver_sponsorships: 'Patrocinadores Prata',
+    new_speakers: 'Fique de olho, anuciaremos novos palestrantes em breve!',
+    be_a_sponsor: 'Seja um patrocinador',
+    want_to_be_sponsor: 'Quero ser um patrocinador',
+    want_to_know_you_description: `Preencha o box abaixo com seu e-mail e fique
     por dentro de tudo que vai rolar nessa NodeConf Brazil.`,
-  where_description: `O evento vai acontecer no Teatro Frei Caneca, local de
+    where_description: `O evento vai acontecer no Teatro Frei Caneca, local de
     fácil acesso para todos, próximo a Avenida Paulista e a Rua da Consolação,
     cartões postais da capital Paulista. O Local é bem amplo. Teremos no
     auditório palestras e no salão outras atividades interessantes como
     workshops, além de demo days de startups brasileiras.`,
-  want_to_know_more_about: 'Quero receber informações sobre a NodeConfBR 2016',
-  doubts_contact: 'dúvidas: nodebr@nodebr.org',
-  footnote: `Organizadores, patrocinadores e participantes são obrigados a
+    want_to_know_more_about: 'Quero receber informações sobre a NodeConfBR 2016',
+    doubts_contact: 'dúvidas: nodebr@nodebr.org',
+    footnote: `Organizadores, patrocinadores e participantes são obrigados a
     seguir o Código de Conduta.`,
-  time: 'HORÁRIO',
-  speaker: 'PALESTRANTE',
-  title: 'TITULO',
-  type: 'TIPO',
-  event_description: `
+    time: 'HORÁRIO',
+    speaker: 'PALESTRANTE',
+    title: 'TITULO',
+    type: 'TIPO',
+    event_description: `
     <p>
       Esta é a primeira edição da NodeConf na América Latina e é também o
       primeiro grande evento focado exclusivamente em Node.js do Brasil.
@@ -60,7 +61,7 @@ export default {
         Compre seu ingresso
       </a> e garanta uma vaga nesta NodeConf histórica!
     </p>`,
-  code_of_conduct_description: `
+    code_of_conduct_description: `
     <h1>Código de Conduta</h1>
     <p>
       Todos os participantes, palestrantes, patrocinadores e voluntários da

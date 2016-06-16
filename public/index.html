@@ -98,18 +98,60 @@
     <header id="home">
         <div class="header-content">
             <div class="header-content-inner">
-                <img src="/assets/img/logonovo.svg" alt="Logo NodeConf Brazil" class="logo" />
-                <p id="translate" class="sliding-middle-out pointer" v-on:click.prevent="toggleLocale()">{{ $t('page.read_in_locale') }}</p>
-                <p class="event-title">NODECONF<span>BRAZIL</span>2016</p>
-                <div class="row dt-local">
-                    <div class="col-md-6 col-xs-6 date">
-                        <span class="ss-calendar"></span><span>{{ $t('page.date') }}</span>
+                <div class="row">
+                    <div class="col-md-3 text-right">
+                        <img src="/assets/img/logonovo.svg" alt="Logo NodeConf Brazil" class="logo" width="100px" />
                     </div>
-                    <div class="col-md-6 col-xs-6 local">
-                        <span class="ss-location"></span><span>{{ $t('page.location') }}</span>
+                    <div class="col-md-9">
+                        <p class="event-title">NODECONF<span>BRAZIL</span>2016</p>
+                        <div class="row dt-local">
+                            <div class="col-md-12 col-xs-12 date">
+                                <span>Transmissões ONLINE e Gratuitas</span> <span class="ss-calendar"></span><span>{{ $t('page.openconf_date') }}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <a href="http://www.eventick.com.br/nodeconfbr" target="_blank" class="btn btn-success btn-xl"><img src="/assets/img/ticket.svg" alt="" class="ticket" /> {{ $t('page.buy_tickets_now') }}</a>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="bg-white box">
+                            <div class="responsive-video">
+                                <iframe src="//www.youtube.com/embed/UkHBowGtUk0?autoplay=0&amp;showinfo=0&amp;controls=0" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-black box col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h3 class="headline text-center">
+                          S7TE Dias de Transmissões que vão te levar do ZERO ao FullStack JavaScript
+                        </h3>
+                        <p>Preencha o <span class="highlight-orange"> seu email </span> para se inscrever!</p>
+                        <form role="form" data-toggle="validator" accept-charset="utf-8" method="post"
+                          action="http://www.nodebr.us13.list-manage.com/subscribe/post?u=f41cb79fbdba2b03cac7aa65c&amp;id=0454bbb748">
+                            <div class="form-group">
+                                <input id="mce-EMAIL" type="email" class="form-control input-lg" name="EMAIL" placeholder="Digite seu email aqui" required="">
+                            </div>
+                            <div class="form-group">
+                                <button id="mc-embedded-subscribe" type="submit" name="submit" class="btn btn-primary btn-lg btn-block">
+                                  <span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;&nbsp; QUERO PARTICIPAR
+                                </button>
+                            </div>
+                        </form>
+
+                        <div class="text-center">
+                            <small><span class="glyphicon glyphicon-lock"></span> 100% livre de spam</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row dt-local">
+                    <div class="bg-black box col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h2>
+                    2 Dias de Evento AO VIVO exclusivo com os maiores Experts em Node.js do mundo pela primeira vez no Brasil
+                  </h2>
+                        <a href="http://www.eventick.com.br/nodeconfbr" target="_blank" class="btn btn-danger btn-xl"><img src="/assets/img/ticket.svg" alt="" class="ticket" /> {{ $t('page.buy_tickets_now') }}</a>
+                        <p>VAGAS LIMITADAS</p>
+                        <p><span class="ss-calendar"></span><span>{{ $t('page.date') }}</span> <span class="ss-location"></span><span>{{ $t('page.location') }}</span></p>
+                        <p id="translate" class="sliding-middle-out pointer" v-on:click.prevent="toggleLocale()">{{ $t('page.read_in_locale') }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -300,9 +342,9 @@
                 </div>
             </div>
             <div class="row sponsorships-line sponsorships-apoiadores">
-              <div class="col-lg-2 col-lg-offset-2">
-                <a href="http://blog.netcoders.com.br/"><img src="/assets/img/netcoders.png" class="img-responsive" alt="Net Coders" /></a>
-              </div>
+                <div class="col-lg-2 col-lg-offset-2">
+                    <a href="http://blog.netcoders.com.br/"><img src="/assets/img/netcoders.png" class="img-responsive" alt="Net Coders" /></a>
+                </div>
                 <div class="col-lg-2">
                     <a href="https://auth0.com/"><img src="/assets/img/auth0.png" class="img-responsive" alt="Auth0" /></a>
                 </div>
