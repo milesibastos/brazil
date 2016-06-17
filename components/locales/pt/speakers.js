@@ -5,7 +5,7 @@ export default [
     name: 'Ivan Seidel',
     slug: 'ivan-seidel',
     job: 'ESTUDANTE | UFABC',
-    image: '/assets/img/1.png',
+    image: 'assets/img/1.png',
     social: {
       github: 'https://github.com/ivanseidel',
       twitter: 'https://twitter.com/ivan_seidel'
@@ -23,7 +23,7 @@ export default [
     name: 'Adam Bretz',
     slug: 'adam-bretz',
     job: 'DEVELOPER | WALMART',
-    image: '/assets/img/2.png',
+    image: 'assets/img/2.png',
     social: {
       github: 'https://github.com/arb',
       twitter: 'https://twitter.com/adambretz'
@@ -52,7 +52,7 @@ export default [
     name: 'Christopher EnyTC',
     slug: 'christopher-enytc',
     job: 'DEVELOPER EVANGELIST | PAGAR.ME',
-    image: '/assets/img/3.png',
+    image: 'assets/img/3.png',
     social: {
       github: 'https://twitter.com/chrisenytc',
       twitter: 'https://github.com/chrisenytc'
@@ -70,7 +70,7 @@ export default [
     name: 'Nelson Frugeri',
     slug: 'nelson-frugeri',
     job: 'DEVELOPER | CargoBR',
-    image: '/assets/img/nelson_frugeri.png',
+    image: 'assets/img/nelson_frugeri.png',
     social: {
       linkedin: 'https://www.linkedin.com/in/nelson-f-jr-72297465',
       twitter: 'https://twitter.com/neldevfull'
@@ -97,7 +97,7 @@ export default [
     name: 'Kat Marchán',
     slug: 'kat-marchan',
     job: 'DEVELOPER | npm',
-    image: '/assets/img/kat_marchan.png',
+    image: 'assets/img/kat_marchan.png',
     social: {
       github: 'https://github.com/zkat',
       twitter: 'https://twitter.com/maybekatz'
@@ -116,7 +116,7 @@ export default [
     name: 'Damian Schenkelman',
     slug: 'damian-schenkelman',
     job: 'ENGINEER | Auth0',
-    image: '/assets/img/damian-schenkelman.png',
+    image: 'assets/img/damian-schenkelman.png',
     social: {
       github: 'https://github.com/dschenkelman',
       twitter: 'https://twitter.com/dschenkelman'
@@ -150,7 +150,7 @@ export default [
     name: 'Emerson Macedo',
     slug: 'emerson-macedo',
     job: 'LÍDER TÉCNICO | Globo.com',
-    image: '/assets/img/emerson_macedo.png',
+    image: 'assets/img/emerson_macedo.png',
     social: {
       github: 'https://github.com/emerleite',
       twitter: 'https://twitter.com/emerleite'
@@ -171,7 +171,7 @@ export default [
     name: 'Alberto Souza',
     slug: 'alberto-souza',
     job: 'DEVELOPER | We.js',
-    image: '/assets/img/alberto_souza.png',
+    image: 'assets/img/alberto_souza.png',
     social: {
       github: 'https://github.com/albertosouza',
       twitter: 'https://twitter.com/albertosouza_js'
@@ -192,7 +192,7 @@ export default [
     name: 'Diego Martins',
     slug: 'diego-martins',
     job: 'DEVELOPER | Touch Tecnologia',
-    image: '/assets/img/diego_martins.png',
+    image: 'assets/img/diego_martins.png',
     social: {
       website: 'http://diegopinho.com.br/',
       github: 'https://github.com/DiegoPinho',
@@ -215,7 +215,7 @@ export default [
     name: 'Filipe M. Silva',
     slug: 'filipe-silva',
     job: 'DEVELOPER | Local 1202',
-    image: '/assets/img/filipe_silva.png',
+    image: 'assets/img/filipe_silva.png',
     social: {
       github: 'https://github.com/flpms',
       twitter: 'https://twitter.com/flpms'
@@ -236,7 +236,7 @@ export default [
     name: 'Erick Wendel',
     slug: 'erick-wendel',
     job: 'DEVELOPER | Iterative',
-    image: '/assets/img/erick_wendel.png',
+    image: 'assets/img/erick_wendel.png',
     social: {
       twitter: 'https://twitter.com/erickwendeldev'
     },
@@ -258,7 +258,7 @@ export default [
     name: 'Bruno Fidelis',
     slug: 'bruno-fidelis',
     job: 'DEVELOPER | KingHost',
-    image: '/assets/img/bruno_fidelis.png',
+    image: 'assets/img/bruno_fidelis.png',
     social: {
       twitter: 'https://twitter.com/btfidelis004',
       github: 'https://github.com/btfidelis'
@@ -279,7 +279,7 @@ export default [
     name: 'Itacir Pompeu',
     slug: 'itacir-pompeu',
     job: 'FULLSTACK | MyInfoShare(TVG)',
-    image: '/assets/img/itacir_pompeu.png',
+    image: 'assets/img/itacir_pompeu.png',
     social: {
       twitter: 'https://twitter.com/Pompeulimp',
       github: 'https://github.com/Pompeu'
@@ -299,7 +299,7 @@ export default [
     name: 'Bruno Cartolari',
     slug: 'bruno-cartolari',
     job: 'ARQUITETO DE SISTEMAS | Vizir',
-    image: '/assets/img/bruno_cartolari.png',
+    image: 'assets/img/bruno_cartolari.png',
     social: {
       github: 'https://github.com/cartolari'
     },
@@ -318,7 +318,7 @@ export default [
     name: 'Guilherme de Souza',
     slug: 'guilherme-souza',
     job: 'PRODUCT ENGINEER | Sprinklr',
-    image: '/assets/img/guilherme-souza.png',
+    image: 'assets/img/guilherme-souza.png',
     social: {
       github: 'https://github.com/guisouza',
       twitter: 'https://twitter.com/_gui_souza'
